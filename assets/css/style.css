@@ -1,0 +1,245 @@
+/* Styles for the plugin settings page */
+
+/* .wrap {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+} */
+
+h2 {
+    margin-top: 0;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #005f86;
+}
+
+
+/* Existing styles */
+/* Add this to your style.css file or response-styles.css */
+.response-container {
+    margin-top: 20px;
+}
+
+.response-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.response-container ul li {
+    margin-bottom: 5px;
+}
+
+.response-container ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* New styles for menu and submenu responses */
+.response-container .menu-response {
+    margin-top: 20px;
+}
+
+.response-container .menu-response ul {
+    list-style: none;
+    padding: 0;
+}
+
+.response-container .menu-response ul.menu {
+    padding-left: 20px; /* Adjust as needed */
+}
+
+.response-container .menu-response ul.menu li {
+    margin-bottom: 5px;
+}
+
+.response-container .menu-response ul.menu li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.response-container .submenu-response {
+    margin-left: 20px; /* Indent the submenu */
+}
+
+.response-container .submenu-response ul {
+    list-style: none;
+    padding: 0;
+}
+
+.response-container .submenu-response ul.submenu {
+    padding-left: 20px; /* Adjust as needed */
+}
+
+.response-container .submenu-response ul.submenu li {
+    margin-bottom: 5px;
+}
+
+.response-container .submenu-response ul.submenu li a {
+    text-decoration: none;
+    color: #666; /* Submenu link color */
+}
+
+/* Main menu styling */
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Sub-menu styling */
+.menu li ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li ul li {
+    margin-left: 20px; /* Adjust as needed */
+}
+
+.menu li ul li a {
+    color: #666;
+}
+
+/* CSS for styling SVG elements */
+.svg-container {
+    width: 100%; /* Adjust width as needed */
+    height: auto; /* Adjust height as needed */
+}
+
+/* Style for SVG circles representing menu items */
+circle {
+    stroke: #ffffff; /* Circle border color */
+    stroke-width: 2; /* Circle border width */
+}
+
+/* Style for SVG text representing menu item labels */
+text {
+    font-family: Arial, sans-serif; /* Font family for text */
+    font-size: 14px; /* Font size for text */
+    text-anchor: middle; /* Text anchor position */
+    pointer-events: none; /* Disable pointer events for text */
+    user-select: none; /* Disable text selection */
+    fill: #ffffff; /* Text color */
+}
+
+/* Style for the response container */
+.response-container {
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+
+/* CSS for styling SVG elements */
+.site-map-svg {
+    width: 100%;
+    height: auto;
+}
+
+.menu-item-rectangle {
+    rx: 5px; /* Rounded corners for rectangles */
+    stroke: none; /* No border for rectangles */
+}
+
+.menu-item-label {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-anchor: middle;
+    pointer-events: none;
+    user-select: none;
+}
+
+/* Additional styles for response container */
+.response-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Style for the SVG container */
+#response-container {
+    margin-top: 20px;
+}
+
+/* Style for the SVG text elements */
+text {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    fill: #333; /* Text color */
+}
+
+/* Style for main menu items */
+text.main-menu {
+    font-weight: bold;
+}
+
+/* Style for sub-menu items */
+text.sub-menu {
+    font-style: italic;
+}
+
+
+/* style.css */
+
+/* Main menu item */
+.menu-item {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px;
+}
+
+/* Submenu item */
+.submenu-item {
+    background-color: #f0f0f0; /* Change to your desired background color */
+    color: #333333; /* Change to your desired text color */
+    padding: 5px 20px; /* Adjust padding as needed */
+    border-left: 2px solid #007bff; /* Indicate hierarchy with border */
+}
+
+/* Nested submenu item */
+.submenu-item.submenu-nested {
+    border-left: 2px solid #888888; /* Change color for nested submenus */
+    padding-left: 40px; /* Increase padding for nested submenus */
+}

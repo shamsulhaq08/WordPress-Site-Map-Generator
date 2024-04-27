@@ -1,0 +1,8 @@
+/* response-styles.css */
+
+.response-container {
+    background-color: #dddddd; /* Green background */
+    color: white; /* White text */
+    padding: 10px;
+    margin-top: 20px;
+}
